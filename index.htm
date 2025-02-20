@@ -1,0 +1,30 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this file,
+   - You can obtain one at http://mozilla.org/MPL/2.0/. -->
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>برنامه آب‌وهوا</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>چک کننده آب‌وهوا</h1>
+    <input type="text" id="cityInput" placeholder="نام شهر را وارد کنید..." />
+    <button id="searchBtn">جستجو</button>
+
+    <div id="weatherData" class="hidden">
+      <h2 id="cityName"></h2>
+      <p><strong>دما:</strong> <span id="temperature"></span> °C</p>
+      <p><strong>وضعیت آب‌وهوا:</strong> <span id="weatherCondition"></span></p>
+      <p><strong>رطوبت:</strong> <span id="humidity"></span>%</p>
+      <p><strong>سرعت باد:</strong> <span id="windSpeed"></span> m/s</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
