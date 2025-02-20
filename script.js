@@ -1,7 +1,7 @@
 // script.js
 
 // کلید API خود را اینجا قرار دهید
-const apiKey = "YOUR_API_KEY"; // جایگزین YOUR_API_KEY با کلید API خودتان
+const apiKey = "79333dc52ac8b0593cab0a3520e4b22e"; // جایگزین YOUR_API_KEY با کلید API خودتان
 
 // ارجاع به عناصر DOM
 const cityInput = document.getElementById("cityInput");
